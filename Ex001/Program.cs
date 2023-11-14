@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Internal;
+using System;
 
 class Program {
   static void Main(string[] args) {
