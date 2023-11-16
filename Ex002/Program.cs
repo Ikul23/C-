@@ -1,4 +1,10 @@
-﻿Console.WriteLine("Введите имя пользователя");
-string username = Console.ReadLine();
-Console.WriteLine("Привет!, ");
-Console.WriteLine(username);
+﻿// Напишите программу, которая на вход принимает целое число N, 
+//а на выходе показывает все целые числа в промежутке от -N до N.
+int a = 5;
+int b = -a;
+
+while(b <= a){
+    Console.Write($"{b}, ");
+    b++;
+}
+  
